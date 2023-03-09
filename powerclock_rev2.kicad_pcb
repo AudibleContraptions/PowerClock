@@ -10,6 +10,10 @@
     (date "2023-03-06")
     (rev "rev2 ab")
     (company "AudibleContraptions")
+    (comment 1 "Source location: https://github.com/AudibleContraptions/PowerClock")
+    (comment 2 "any later version.")
+    (comment 3 "This source describes Open Hardware and is licensed under the CERN-OHL-S v2 or ")
+    (comment 4 "Copyright Arne Bethmann 2023.")
   )
 
   (layers
@@ -9663,6 +9667,10 @@
   (gr_text "PowerClock" (at 89.75 93.75) (layer "F.SilkS" knockout) (tstamp 9192baf1-c7d9-4225-b56d-b59ec4103883)
     (effects (font (size 1.5 1.5) (thickness 0.35) bold))
   )
+  (gr_text_box "You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern ohl s v2.txt).\nThis source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions."
+    (start 43 158.25) (end 135.5 165.5254) (layer "User.1") (tstamp f714d063-83b9-4b9a-80c9-50019ec1d95b)
+      (effects (font (size 1 1) (thickness 0.15)) (justify left top))
+    (stroke (width 0.15) (type solid))  )
 
   (segment (start 78.69 85.895) (end 82.135 82.45) (width 0.5) (layer "F.Cu") (net 1) (tstamp 18776c84-fbdc-4036-9232-e3b3de64447c))
   (segment (start 78.69 97.25) (end 78.69 85.895) (width 0.5) (layer "F.Cu") (net 1) (tstamp d7a79e71-57bc-4d8a-9928-87904b97b7d0))
